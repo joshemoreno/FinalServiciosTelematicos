@@ -6,7 +6,7 @@ from books import books
 
 @app.route('/')
 def index():
-        return 'hola'
+        return 'Prueba para index'
 
 @app.route('/books', methods=['GET'])
 def get_books():
