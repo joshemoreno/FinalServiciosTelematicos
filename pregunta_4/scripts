@@ -1,0 +1,6 @@
+POST
+curl -X POST -H "Content-Type:application/json" https://industrial.api.ubidots.com/api/v1.6/devices/machine/?token=BBFF-GH4JQwTe08vHrf3geFdLPZUKILaFtF -d '{"temperature":50,"humidity":35,"position":1000}'
+GET
+curl -i https://industrial.api.ubidots.com/api/v1.6/devices/machine/?token=BBFF-GH4JQwTe08vHrf3geFdLPZUKILaFtF
+GET_2
+curl -X GET -H "Content-Type:GETion/json" https://industrial.api.ubidots.com/api/v1.6/devices/machine/?token=BBFF-GH4JQwTe08vHrf3geFdLPZUKILaFtF
